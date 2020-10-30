@@ -1,11 +1,14 @@
-import React from 'react';
-import NavBar from './components/NavBar/NavBar'
-import './App.css'
+import React from "react";
+import NavBar from "./components/NavBar/NavBar";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.css";
 
 export default function App() {
   return (
-    <div className="myspace">
+    <>
+    <Router>
       <NavBar />
-    </div>
-  )
+    </Router>
+  </>
+  );
 }
