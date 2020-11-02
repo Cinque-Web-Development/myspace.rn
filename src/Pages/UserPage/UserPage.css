@@ -1,8 +1,24 @@
 .UserPage {
-  display: flex;
+	display: flex;
+	padding: 15px;
 }
 
-.left-col,
+.left-col {
+	width: 30vw;
+}
+
 .right-col {
-  width: 50vw;
+	width: 60vw;
+}
+
+.user-info {
+	display: flex;
+}
+
+.user-info-left {
+	width: 30%;
+}
+
+.user-info-right {
+	width: 60%;
 }
