@@ -5,7 +5,7 @@ import './UserPage.css';
 export default function UserPage() {
 	return (
 		<div>
-			<div>User PAge</div>
+			<div>User Page</div>
 		</div>
 	);
 }
