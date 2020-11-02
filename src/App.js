@@ -1,8 +1,8 @@
-import React from "react";
-import NavBar from "./components/NavBar/NavBar";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
 
-import "./App.css";
+import './App.css';
 
 export default function App() {
   return (
@@ -10,7 +10,6 @@ export default function App() {
       <Router>
         <NavBar />
       </Router>
-     
     </>
   );
 }
