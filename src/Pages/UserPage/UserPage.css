@@ -1,0 +1,8 @@
+.UserPage {
+  display: flex;
+}
+
+.left-col,
+.right-col {
+  width: 50vw;
+}
