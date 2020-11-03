@@ -1,20 +1,20 @@
 .footer {
-  background-color: rgba(33, 56, 243);
-  height: 70px;
+	background-color: rgba(33, 56, 243);
+	height: 70px;
 }
 .cwd {
-  color: rgab(199, 231, 240);
+	color: rgab(199, 231, 240);
 }
 
 .cinque {
-  color: black;
+	color: black;
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 i {
-  color: rgba(199, 231, 240);
+	color: rgba(199, 231, 240);
 }

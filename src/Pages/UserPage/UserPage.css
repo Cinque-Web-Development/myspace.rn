@@ -1,0 +1,87 @@
+.UserPage {
+	display: flex;
+	padding: 15px;
+}
+
+.left-col {
+	width: 35vw;
+}
+
+.profile-photo {
+	max-height: 150px;
+}
+
+.right-col {
+	width: 60vw;
+	margin-left: 5vw;
+}
+
+.user-info {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.user-info-right {
+	padding: 2rem 0 0 1rem;
+	font-weight: bold;
+}
+
+#last-login {
+	font-weight: normal;
+}
+
+.contact-links {
+	border: 2px ridge cornflowerblue;
+}
+
+.contact-heading {
+	background-color: cornflowerblue;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding-left: 1rem;
+	border-bottom: 1px ridge cornflowerblue;
+}
+
+.contact-links-wrapper {
+	display: flex;
+}
+
+.contact-links-wrapper > ul {
+	list-style: none;
+}
+
+.music-player {
+	width: 100%;
+	margin: 2rem 0;
+}
+
+.blurbs {
+	margin-bottom: 2rem;
+}
+
+.orange-heading {
+	background-color: rgb(255, 190, 133);
+	color: rgb(216, 102, 2);
+	padding: 2px 4px;
+}
+
+.user-about-heading {
+	color: rgb(216, 102, 2);
+	font-size: 1.2rem;
+	padding-left: 4px;
+	margin: 0;
+}
+
+.user-about {
+	padding-left: 8px;
+	margin: 10px 0;
+}
+
+.friends-wrapper {
+	padding-left: 10px;
+}
+
+#friend-count {
+	color: rgb(216, 102, 2);
+}
