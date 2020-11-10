@@ -1,5 +1,5 @@
 import tokenService from '../services/tokenService';
-const BASE_URL = '/api/auth/';
+const BASE_URL = 'http://localhost:3001/api/auth/';
 
 function signup(user) {
 	return fetch(BASE_URL + 'signup', {
