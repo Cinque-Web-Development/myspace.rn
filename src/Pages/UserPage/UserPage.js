@@ -12,7 +12,11 @@ export default function UserPage() {
 				<div className="user-info">
 					<div className="user-info-left">
 						<h2>Kathleen</h2>
-						<img src={profilePhoto} className="profile-photo"></img>
+						<img
+							src={profilePhoto}
+							alt="user"
+							className="profile-photo"
+						></img>
 					</div>
 					<div className="user-info-right">
 						<p>I'm the React Queen</p>
@@ -46,7 +50,11 @@ export default function UserPage() {
 					</div>
 				</div>
 				<div className="profile-song">
-					<img src={musicPlayer} className="music-player"></img>
+					<img
+						src={musicPlayer}
+						alt="user-song-cover"
+						className="music-player"
+					></img>
 				</div>
 				<div className="profile-details"></div>
 			</div>

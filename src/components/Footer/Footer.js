@@ -14,7 +14,7 @@ export default function Footer() {
 				<div className="social-links">
 					<a
 						target="_blank"
-						rel="noreferrer"
+						rel="noopener noreferrer"
 						href="https://github.com/Cinque-Web-Development"
 					>
 						<i className="fab fa-github fa-3x" />
@@ -22,7 +22,7 @@ export default function Footer() {
 					&nbsp;&nbsp;&nbsp;
 					<a
 						target="_blank"
-						rel="noreferrer"
+						rel="noopener noreferrer"
 						href="https://twitter.com/cinquewebdev"
 					>
 						<i className="fab fa-twitter fa-3x" />
@@ -30,7 +30,7 @@ export default function Footer() {
 					&nbsp;&nbsp;&nbsp;
 					<a
 						target="_blank"
-						rel="noreferrer"
+						rel="noopener noreferrer"
 						href="https://www.linkedin.com/company/cinque-web-dev"
 					>
 						<i className="fab fa-linkedin fa-3x" />
